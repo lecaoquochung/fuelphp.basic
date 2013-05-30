@@ -4,11 +4,5 @@
  */
 
 return array(
-	'default' => array(
-		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;dbname=basic_fuelphp',
-			'username'   => 'root',
-			'password'   => '',
-		),
-	),
+
 );

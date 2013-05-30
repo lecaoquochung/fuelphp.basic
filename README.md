@@ -7,15 +7,19 @@ Config
 + Step 1: 
 php oil refine install
 
-+ Step 2:
++ Step 2: 
 Database 
 C:\xampp\htdocs\fuelphp.basic\fuel\app\config\db.php
 ORM
 C:\xampp\htdocs\fuelphp.basic\fuel\app\config\config.php
+php oil g model user name:varchar[96] mark_user:int[1] email:varchar[96] password:varchar[100] ip:varchar[96] active:ti
+yint[1] root:int[1]
 
 + Step 3: 
 Scaffold
 $ php oil g scaffold Model_Name field1:type field2:type
+
+php oil g scaffold user name:varchar[96] mark_user:int[1] email:varchar[96] password:varchar[100] ip:varchar[96] active:tiyint[1] root:int[1]
 
 Generating Migrations -> Could be used to rename a table
 $ php oil generate migration rename_table_users_to_accounts
