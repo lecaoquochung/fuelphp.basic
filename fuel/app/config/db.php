@@ -6,5 +6,11 @@
  */
 
 return array(
-
+	'default' => array(
+		'connection'  => array(
+			'dsn'        => 'mysql:host=ddnb.info;dbname=test_fuelphp.basic',
+			'username'   => 'projects_test',
+			'password'   => 'projects_test',
+		),
+	),
 );
